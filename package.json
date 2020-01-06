@@ -1,0 +1,25 @@
+{
+  "name": "use-web-storage",
+  "version": "0.0.1",
+  "description": "This package contain React hooks that enable the access to the Web Storage APIs provided by the modern web browsers. This full list is listed in https://developers.google.com/web/fundamentals/instant-and-offline/web-storage but the package will implement only the subset of Cookies, Local Storage and IndexedDb.",
+  "main": "index.js",
+  "author": "seetdev <darren@seet.dev>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "jest": "^24.9.0",
+    "jest-localstorage-mock": "^2.4.0",
+    "parcel": "^2.0.0-alpha.3.2",
+    "parcel-plugin-bundle-visualiser": "^1.2.0",
+    "parcel-plugin-eslint": "^1.0.8-2",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
